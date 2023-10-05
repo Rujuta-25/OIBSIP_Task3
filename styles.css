@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://th.bing.com/th/id/R.095651d9d0a52f18580d50e68c1f97a6?rik=40ey%2bEHdeT5UJw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fehcOLxM.jpg&ehk=hKaSUzLxyiaqDnngjNE6qWfi8tPK52XlX6v66K6hsG4%3d&risl=&pid=ImgRaw&r=0');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .converter {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    opacity: 85%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #0c2ff5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #7cceee;
+  }
+  
+  #result {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333;
+  }
+  
